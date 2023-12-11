@@ -5,6 +5,7 @@ body {
 a{
     text-decoration: none;
     color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 li {
@@ -36,8 +37,13 @@ li {
     background-size: cover;
     height: 100vh;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
     align-items: center;
 }
 
@@ -48,15 +54,30 @@ li {
 
 h2{
     font-size: 56px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h3{
     font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 
-@media all and (min-width:320px) and (max-widh: 480px){
+
+@media all and (min-width:769px) and (max-width: 1024px){
+    h2{
+        font-size: 48px;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+}
+
+
+
+@media all and (min-width:320px) and (max-width: 480px){
     h2{
         font-size: 32px;
     }
@@ -66,15 +87,6 @@ h3{
     }
 }
 
-@media all and (min-width:769px) and (max-widh: 1024px){
-    h2{
-        font-size: 48px;
-    }
-    
-    h3{
-        font-size: 24px;
-    }
-}
 
 
 
